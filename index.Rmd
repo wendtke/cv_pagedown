@@ -1,6 +1,6 @@
 ---
-title: "Kathleen Wendt's CV"
-author: Nick Strayer
+title: "Kathleen E Wendt: CV"
+author: Kathleen Ellen Wendt
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -27,7 +27,7 @@ library(tidyverse)
 using_googlesheets <- TRUE
 
 # Just the copied URL from the sheet
-positions_sheet_loc <- "https://docs.google.com/spreadsheets/d/14MQICF2F8-vf8CKPF1m4lyGKO6_thG-4aSwat1e2TWc"
+positions_sheet_loc <- "https://docs.google.com/spreadsheets/d/1kx6buA5ndv0AGo3jn_qxPy_6AaKOph8jkITESxhOwPQ/edit#gid=1406459246"
 
 # Is this sheet available for anyone to read? If you're using a private sheet
 # set this to false and go to gather_data.R and run the data loading manually
@@ -37,11 +37,11 @@ sheet_is_publicly_readable <- TRUE
 # Is the goal of this knit to build a document that is exported to PDF? If so
 # set this to true to have links turned into footnotes at the end of the
 # document
-PDF_EXPORT <- FALSE
+PDF_EXPORT <- TRUE
 
 
-CV_PDF_LOC <- "https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf"
-CV_HTML_LOC <- "nickstrayer.me/cv/"
+CV_PDF_LOC <- "https://github.com/wendtke/cv_pagedown/blob/master/wendt_cv.pdf"
+CV_HTML_LOC <- "wendtke.me/cv/"
 
 
 # A global (gasp) variable that holds all the links that were inserted for
